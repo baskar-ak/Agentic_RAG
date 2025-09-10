@@ -100,7 +100,7 @@ class RAGApp:
 		# Generate answer
 		if st.session_state.answer:
 			st.subheader("Answer 🎯")
-			st.write(st.session_state.answer)
+			st.text(st.session_state.answer)
 
 if __name__ == "__main__":
 	app = RAGApp()
